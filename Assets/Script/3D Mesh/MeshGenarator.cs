@@ -17,6 +17,7 @@ public class MeshGenarator : MonoBehaviour
 
     void CreateShape()
     {
+        Debug.Log("CreateShape");
         vertices = new Vector3[]
         {
             new Vector3(0, 0, 0),
